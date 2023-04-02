@@ -21,7 +21,7 @@ public class App
         
         Regulator regulator = new Regulator();
         
-        System.out.println( "Arrancando..." );
+        System.out.println( "Starting..." );
         regulator.regulate(thermometer, heater, minTemp, maxTemp, temperature);
         
         temperature = RoomTemperature.getInstance();
